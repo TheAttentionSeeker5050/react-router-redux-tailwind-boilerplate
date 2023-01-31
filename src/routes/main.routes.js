@@ -5,6 +5,7 @@ import {
 
 import Root from "../components/Root";
 import ErrorPage from "../components/ErrorPage";
+import HomePage from "../components/Home";
 
 const router = createBrowserRouter([
     {
@@ -14,7 +15,7 @@ const router = createBrowserRouter([
       children: [
         {
             path: "/",
-            element:(<main>React App Content</main>)
+            element:<HomePage/>
         },
       ]
     },
